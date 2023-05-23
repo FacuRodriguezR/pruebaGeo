@@ -1,0 +1,25 @@
+@import 'variables';
+
+header {
+    box-shadow: $shadows-principal;
+}
+
+
+.headerLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.buttonHeader   {
+    padding: 10px;
+    margin: 20px;
+    background: $color-button;
+    color: white;
+    border-radius: 5px;
+    border-color: $color-button;
+    text-decoration: none;
+    font-size: .8rem;
+}
